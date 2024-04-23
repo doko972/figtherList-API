@@ -1,0 +1,43 @@
+body{
+    /* background-image: url("/img/fond.avif"); */
+    /* background-color: black; */
+    /* color: azure; */
+    font-size: 12px;
+}
+p{
+    display: flex;
+    justify-content: start;
+}
+
+#superheroList {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.superhero {
+    flex: 0 0 25%;
+    box-sizing: border-box;
+    padding: 1rem;
+    border: 2px solid white;
+
+}
+
+.superhero img {
+    max-width: 100%;
+}
+button{
+    height: 2rem;
+    width: 10rem;
+    border: 1px solid black;
+    border-radius: 2rem;
+    background-color: black;
+    color: white;
+}
+
+button:active {
+    background-color: white;
+    color: black;
+}
+.js-btn{
+}
